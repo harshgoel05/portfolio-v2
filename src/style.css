@@ -107,7 +107,7 @@ canvas {
 }
 #socialnav {
   position: fixed;
-  left: 0px;
+  left: -50px;
   bottom: 0px;
   transition: 0.5s all ease-in;
 }
@@ -244,6 +244,7 @@ canvas {
 .emphasis-words {
   color: var(--orange-color);
   font-weight: 700;
+  transition: all 0.5s ease-in;
 }
 .clubs-list {
   color: var(--orange-color);
@@ -277,19 +278,29 @@ canvas {
   border: 1px solid var(--orange-color);
   padding: 30px;
   margin-top: 130px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   transition: 0.5s all ease-in;
+  background-image: linear-gradient(to top, #e24c00 50%, transparent 50%);
+  background-size: 100% 180%;
+  background-position: top;
+  transition: all 0.5s ease-in;
 }
 .skill-box:hover {
-  border: 1px solid var(--orange-color);
-  background-color: #5e2102 !important;
+  background-size: 100% 200%;
+  background-position: bottom;
+  color: #000 !important;
+}
+.skill-box:hover h1 {
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 1px solid var(--white-color);
+}
+.skill-box:hover .emphasis-words {
+  color: #ccc !important;
 }
 
-.skill-box-full {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 103%;
-  margin-left: -15px;
+.skill-box i {
+  font-size: 40px;
 }
 .skill-box h1 {
   text-align: center;
@@ -297,10 +308,17 @@ canvas {
   border-bottom: 1px solid var(--orange-color);
   margin-bottom: 7px;
   font-weight: bolder;
+  transition: all 0.5s ease-in;
 }
 .skill-box p {
   text-align: center;
   color: rgba(248, 248, 248, 0.658);
+}
+.skill-box-full {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 103%;
+  margin-left: -15px;
 }
 @media (max-width: 850px) {
   .skill-box {
@@ -314,6 +332,7 @@ canvas {
     margin-left: -15px;
   }
 }
+
 /*--------------------------------------Contact us --------------------------------------------------- */
 #contact form {
   margin-top: 100px;
