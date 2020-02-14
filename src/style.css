@@ -324,14 +324,12 @@ canvas {
 }
 @media (max-width: 850px) {
   .skill-box {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px;
   }
   .skill-box-full {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 110%;
-    margin-left: -15px;
+    width: 93%;
+    margin: 30px;
+    margin-left: 10px;
   }
 }
 
@@ -339,8 +337,8 @@ canvas {
 #projects .heading-with-effect {
   margin-bottom: 100px;
 }
-.project-img-col{
-    margin-bottom: 40px;
+.project-img-col {
+  margin-bottom: 40px;
 }
 .project-img-col img {
   width: 100%;
@@ -365,6 +363,33 @@ canvas {
 #projects .row p {
   text-align: right;
 }
+
+@media (max-width: 850px) {
+  #projects .heading-with-effect {
+    margin-bottom: 30px;
+  }
+  #projects .row h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #projects .row p {
+    text-align: center;
+  }
+  #projects .row:nth-child(2n) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #projects .row {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #projects .row img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 /*--------------------------------------Contact us --------------------------------------------------- */
 #contact form {
   margin-top: 100px;
