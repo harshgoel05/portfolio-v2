@@ -69,6 +69,7 @@ canvas {
   opacity: 0;
   transform: translate(-50%, -50%);
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index: 1000;
 }
 .cursor-dot {
   width: 8px;
@@ -233,9 +234,10 @@ canvas {
 }
 #about,
 #skills,
+#projects,
 #contact {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 140px;
+  margin-bottom: 140px;
 }
 /*----------------------------------------------------- About us --------------------------------------------------------------------- */
 .about-content {
@@ -333,6 +335,36 @@ canvas {
   }
 }
 
+/*--------------------------------------  Projects --------------------------------------------------- */
+#projects .heading-with-effect {
+  margin-bottom: 100px;
+}
+.project-img-col{
+    margin-bottom: 40px;
+}
+.project-img-col img {
+  width: 100%;
+  border: 6px solid rgba(226, 76, 0, 0.35);
+  margin: 10px;
+  transition: 0.3s ease-in all;
+}
+.project-img-col img:hover {
+  border: 6px solid rgba(255, 90, 7, 0.726);
+}
+#projects .row h1 {
+  font-size: 50px;
+  color: var(--orange-color);
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: -10px;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  padding-bottom: 30px;
+  padding-top: 60px;
+}
+#projects .row p {
+  text-align: right;
+}
 /*--------------------------------------Contact us --------------------------------------------------- */
 #contact form {
   margin-top: 100px;
