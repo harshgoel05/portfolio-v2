@@ -9,7 +9,7 @@ Made using: <br>
 :point_right: PARTICLE JS <br> 
 
 <br>
-[Fork this on github](https://github.com/user_name_here/repo_name_here/fork)
+<a href="https://github.com/harshgoel05/harshgoel05.github.io/fork">[Fork this on github]</a>
 <br>
 > Feel free to use it unless its not for professional work
 
