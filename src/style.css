@@ -1,19 +1,19 @@
 /*------------------------------------- Some Cool Fonts ----------------------------------------------------------------------- */
 
 @font-face {
-  src: url("./fonts/Aclonica.ttf") format("woff2");
-  font-family: "Aclonica";
+  src: url('./fonts/Aclonica.ttf') format('woff2');
+  font-family: 'Aclonica';
 }
 @font-face {
-  src: url("./fonts/Comfortaa-Light.ttf") format("woff2");
-  font-family: "Comfortaa";
+  src: url('./fonts/Comfortaa-Light.ttf') format('woff2');
+  font-family: 'Comfortaa';
 }
 @font-face {
-  src: url("./fonts/Poppins-ExtraLight.otf") format("woff2");
-  font-family: "Poppins Extra Light";
+  src: url('./fonts/Poppins-ExtraLight.otf') format('woff2');
+  font-family: 'Poppins Extra Light';
 }
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 /*------------------------------------- Common Things!----------------------------------------------------------------------- */
 
@@ -25,7 +25,7 @@
 body {
   background-color: var(--main-bg-color);
   color: var(--white-color);
-  font-family: "Poppins Extra Light";
+  font-family: 'Poppins Extra Light';
 }
 * {
   cursor: none;
@@ -52,7 +52,7 @@ canvas {
   width: 100vw;
   height: 100vh;
   background-color: black;
-  background-image: url("");
+  background-image: url('');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -89,11 +89,11 @@ canvas {
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: -10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .heading-with-effect span {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: rgba(248, 248, 248, 0.849);
 }
 @media (max-width: 850px) {
@@ -102,7 +102,7 @@ canvas {
   }
   .heading-with-effect span {
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgba(248, 248, 248, 0.849);
   }
 }
@@ -117,7 +117,7 @@ canvas {
   padding-left: 0 !important;
 }
 #socialnav ul:after {
-  content: "";
+  content: '';
   background-color: var(--orange-color);
   position: absolute;
   width: 2px;
@@ -187,14 +187,14 @@ canvas {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Comfortaa";
+  font-family: 'Comfortaa';
 }
 .landing-content h1:nth-child(1) {
-  font-family: "Comfortaa";
+  font-family: 'Comfortaa';
   margin-bottom: -10px;
 }
 .landing-content h1:nth-child(2) {
-  font-family: "Aclonica";
+  font-family: 'Aclonica';
   font-size: 70px;
 }
 .landing-content a {
@@ -235,6 +235,7 @@ canvas {
 #about,
 #skills,
 #projects,
+#halloffame,
 #contact {
   margin-top: 140px;
   margin-bottom: 140px;
@@ -250,7 +251,7 @@ canvas {
 }
 .clubs-list {
   color: var(--orange-color);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .somepaddingfromright {
   padding-right: 140px;
@@ -355,7 +356,7 @@ canvas {
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: -10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: right;
   padding-bottom: 30px;
   padding-top: 60px;
@@ -444,4 +445,18 @@ textarea:focus::-webkit-input-placeholder {
   #contact {
     margin-top: 200px;
   }
+}
+#halloffame h4,
+i {
+  color: var(--orange-color);
+}
+#halloffame i {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#halloffame .row {
+  padding-top: 100px;
+}
+#halloffame .col-md-4 {
+  padding: 0px 50px;
 }
