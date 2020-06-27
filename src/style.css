@@ -460,3 +460,33 @@ i {
 #halloffame .col-md-4 {
   padding: 0px 50px;
 }
+
+#show-more {
+  background: none;
+  border: 1px solid var(--orange-color);
+  color: var(--orange-color);
+  transition: 0.5s all ease-in;
+  width: 200px;
+}
+
+#show-more {
+  border: 1px solid var(--orange-color);
+  color: var(--white-color);
+  background-color: var(--orange-color);
+}
+#hide-more {
+  background: none;
+  border: 1px solid var(--orange-color);
+  color: var(--orange-color);
+  transition: 0.5s all ease-in;
+  width: 200px;
+}
+
+#hide-more {
+  border: 1px solid var(--orange-color);
+  color: var(--white-color);
+  background-color: var(--orange-color);
+}
+.more-projects {
+  display: none;
+}
