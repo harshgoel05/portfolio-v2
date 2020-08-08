@@ -135,11 +135,13 @@ function addsocial() {
 $('#show-more').click(function () {
 	$('.more-projects').css('display', 'block');
 	$('#show-more').css('display', 'none');
+	setTimeout($('html').height('100%'), 500);
 });
 
 $('#hide-more').click(function () {
 	$('.more-projects').css('display', 'none');
 	$('#show-more').css('display', 'block');
 	$('#show-more').css('margin', 'auto');
+	setTimeout($('html').height('100%'), 500);
 	location.href = '#projects';
 });

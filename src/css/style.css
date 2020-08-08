@@ -438,15 +438,17 @@ textarea:focus::-webkit-input-placeholder {
 	outline: none;
 	box-shadow: none;
 }
-#contact form button {
+#contact form a {
 	background: none;
 	border: 1px solid var(--orange-color);
 	color: var(--orange-color);
 	transition: 0.5s all ease-in;
 	width: 200px;
+	box-shadow: none !important;
+	outline: none !important;
 }
 
-#contact form button:hover {
+#contact form a:hover {
 	border: 1px solid var(--orange-color);
 	color: var(--white-color);
 	background-color: var(--orange-color);
@@ -503,4 +505,26 @@ i {
 }
 .more-projects {
 	display: none;
+}
+html {
+	overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+	width: 4px;
+}
+html {
+	scrollbar-width: thin;
+	scrollbar-color: var(--orange-color) var(--scrollbarBG);
+}
+html::-webkit-scrollbar-track {
+	background: rgba(22, 22, 22, 0.829);
+}
+html::-webkit-scrollbar-thumb {
+	background-color: var(--orange-color);
+	border-radius: 6px;
+	border: 3px solid var(--scrollbarBG);
+}
+a,
+button {
+	cursor: none !important;
 }
