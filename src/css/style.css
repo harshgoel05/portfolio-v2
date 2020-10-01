@@ -372,6 +372,7 @@ canvas {
   -moz-box-shadow: 0px 6px 58px -8px rgba(224, 75, 0, 1);
   box-shadow: 0px 6px 58px -8px rgba(224, 75, 0, 1);
 }
+
 #projects .row h1 {
   font-size: 50px;
   color: var(--orange-color);
@@ -408,8 +409,14 @@ canvas {
     margin-right: 10px;
   }
   #projects .row img {
-    margin-left: 20px;
-    margin-right: 20px;
+    align-self: center;
+  }
+
+  .project-img-col {
+    margin-bottom: 40px;
+    align-self: center;
+    padding-left: 0 !important;
+    padding-right: 20px;
   }
 }
 
@@ -536,8 +543,7 @@ a,
 button {
   cursor: none !important;
 }
-.span_tech_stack{
-   float: right;  
-   font-family: Poppins,sans-serif;
-    
+.span_tech_stack {
+  float: right;
+  font-family: Poppins, sans-serif;
 }
