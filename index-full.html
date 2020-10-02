@@ -67,6 +67,11 @@
     <!-- End Google Tag Manager -->
     <link
       rel="stylesheet"
+      href="./src/css/loader.css"
+    />
+    <script src="./src/js/loader.js" ></script>
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link
@@ -79,7 +84,14 @@
     <title>Harsh Goel | Full Stack Web Developer</title>
   </head>
 
-  <body>
+  <body onload="hideDiv()">
+    <div class="pre_loaded_div" id="preloaded">
+      <div class="loader">
+      </div>
+    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
