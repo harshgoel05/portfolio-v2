@@ -14,6 +14,7 @@
 }
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
 /*------------------------------------- Common Things!----------------------------------------------------------------------- */
 
@@ -196,13 +197,26 @@ canvas {
   font-family: "Comfortaa";
 }
 .landing-content h1:nth-child(1) {
-  font-family: "Comfortaa";
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   margin-bottom: -10px;
 }
 .landing-content h1:nth-child(2) {
-  font-family: "Aclonica";
-  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  color: black;
+  -webkit-text-fill-color: transparent; 
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--orange-color);
+  transition: -webkit-text-fill-color 2s !important;
 }
+
+.landing-content h1:nth-child(2):hover{
+  -webkit-text-fill-color:var(--orange-color);
+  -webkit-text-stroke-color: transparent;
+}
+
 .landing-content a {
   color: var(--orange-color);
   padding: 13px;
