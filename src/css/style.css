@@ -1,15 +1,15 @@
 /*------------------------------------- Some Cool Fonts ----------------------------------------------------------------------- */
 
 @font-face {
-  src: url("./fonts/Aclonica.ttf") format("woff2");
+  src: url("../fonts/Aclonica.ttf") format("woff2");
   font-family: "Aclonica";
 }
 @font-face {
-  src: url("./fonts/Comfortaa-Light.ttf") format("woff2");
+  src: url("../fonts/Comfortaa-Light.ttf") format("woff2");
   font-family: "Comfortaa";
 }
 @font-face {
-  src: url("./fonts/Poppins-ExtraLight.otf") format("woff2");
+  src: url("../fonts/Poppins-ExtraLight.otf") format("woff2");
   font-family: "Poppins Extra Light";
 }
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
